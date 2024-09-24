@@ -3,12 +3,14 @@ import "./css/Contact.css";
 import emailjs from "emailjs-com";
 
 export default function Contact() {
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-
+  const [formState, setFormState] = useState({
+    from_name: "",
+    email: "",
+    message: "",
+  });
   const sendEmail = (e) => {
     e.preventDefault();
-
+    console.log(e);
     emailjs
       .sendForm(
         "service_bb27l6e",
@@ -23,7 +25,12 @@ export default function Contact() {
         console.log(`Could not send email: ${result.text}`);
       });
   };
-
+  const handleChange = (e) => {
+    setFormState({
+      ...formState,
+      [e.target.name]: e.target.value,
+    });
+  };
   return (
     <>
       <div className="container">
@@ -33,20 +40,30 @@ export default function Contact() {
             <label>Email Address:</label>
             <input
               type="email"
+              name="user_email"
               placeholder="example@example.com"
               required
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              onChange={handleChange}
+            />
+          </div>
+          <div className="input-container">
+            <label className="name">Full Name:</label>
+            <input
+              type="text"
+              name="from_name"
+              placeholder="Jon Doe"
+              required
+              onChange={handleChange}
             />
           </div>
           <div className="input-container">
             <label>Message:</label>
             <textarea
               className="email-message"
+              name="message"
               placeholder="Enter your message here..."
               required
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
+              onChange={handleChange}
             />
           </div>
           <button type="submit">Send Email</button>
