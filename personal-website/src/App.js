@@ -4,22 +4,24 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
+import "./App.css"; // Import your custom CSS
 
 function App() {
   return (
-    <div className="container">
-      <h1 style={{ justifyContent: "center", display: "flex" }}>
-        THIS IS THE START
-      </h1>
-      <Router>
+    <Router>
+      <div className="container mt-5">
+        <h1 className="text-center mb-4">
+          Welcome to The Personal Website Created by Eric Lorback
+        </h1>
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 

@@ -1,16 +1,16 @@
 import React, { useState } from "react";
-import "./css/Contact.css";
 import emailjs from "emailjs-com";
+import { Button, Form,Container } from "react-bootstrap";
 
 export default function Contact() {
   const [formState, setFormState] = useState({
     from_name: "",
-    email: "",
+    user_email: "",
     message: "",
   });
+
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log(e);
     emailjs
       .sendForm(
         "service_bb27l6e",
@@ -25,50 +25,51 @@ export default function Contact() {
         console.log(`Could not send email: ${result.text}`);
       });
   };
+
   const handleChange = (e) => {
     setFormState({
       ...formState,
       [e.target.name]: e.target.value,
     });
   };
+
   return (
-    <>
-      <div className="container">
-        <h1>EMAIL FIELD</h1>
-        <form className="form" onSubmit={sendEmail}>
-          <div className="input-container">
-            <label>Email Address:</label>
-            <input
-              type="email"
-              name="user_email"
-              placeholder="example@example.com"
-              required
-              onChange={handleChange}
-            />
-          </div>
-          <div className="input-container">
-            <label className="name">Full Name:</label>
-            <input
-              type="text"
-              name="from_name"
-              placeholder="Jon Doe"
-              required
-              onChange={handleChange}
-            />
-          </div>
-          <div className="input-container">
-            <label>Message:</label>
-            <textarea
-              className="email-message"
-              name="message"
-              placeholder="Enter your message here..."
-              required
-              onChange={handleChange}
-            />
-          </div>
-          <button type="submit">Send Email</button>
-        </form>
-      </div>
-    </>
+    <Container className="mt-5">
+      <h1 className="text-center mb-4">Fill Out The Form To Reach Me</h1>
+      <Form onSubmit={sendEmail}>
+        <Form.Group className="mb-3">
+          <Form.Label>Email Address:</Form.Label>
+          <Form.Control
+            type="email"
+            name="user_email"
+            placeholder="example@example.com"
+            required
+            onChange={handleChange}
+          />
+        </Form.Group>
+        <Form.Group className="mb-3">
+          <Form.Label>Full Name:</Form.Label>
+          <Form.Control
+            type="text"
+            name="from_name"
+            placeholder="First and Last name"
+            required
+            onChange={handleChange}
+          />
+        </Form.Group>
+        <Form.Group className="mb-3">
+          <Form.Label>Message:</Form.Label>
+          <Form.Control
+            as="textarea"
+            name="message"
+            placeholder="Enter your message here..."
+            rows={4}
+            required
+            onChange={handleChange}
+          />
+        </Form.Group>
+        <Button type="submit" variant="primary">Send Email</Button>
+      </Form>
+    </Container>
   );
 }

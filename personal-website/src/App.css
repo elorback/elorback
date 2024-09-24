@@ -1,3 +1,52 @@
-.container{
-    background-color: lightblue;
-}
+body {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color for readability */
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h3, h4 {
+    color: #ffcc00; /* Bright yellow for headings */
+  }
+  
+  .btn {
+    background-color: #ff5722; /* Vibrant button color */
+    border: none; /* Remove border */
+  }
+  
+  .btn:hover {
+    background-color: #e64a19; /* Darker shade on hover */
+  }
+  
+  .card {
+    background-color: #1e1e1e; /* Dark card background */
+    border: none; /* Remove card border */
+  }
+  
+  .card-title {
+    color: #ffcc00; /* Bright yellow for card titles */
+  }
+  
+  .card-text {
+    color: #ffffff; /* White text for card content */
+  }
+  
+
+  .custom-navbar {
+    background-color: #1a1a1a; /* Darker background color */
+  }
+  
+  .nav-link {
+    font-size: 1.2rem; /* Increase the text size */
+    font-weight: bold; /* Make the text bold */
+    color: #ffffff; /* Lighter text color */
+  }
+  
+  .nav-link:hover {
+    color: #f8f9fa; /* Optional: Change color on hover for better UX */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Increase the brand text size */
+    color: #ffffff; /* Lighter text color */
+  }
+  
