@@ -16,6 +16,7 @@ export default function About() {
               <Card.Text>
                 Recent College Graduate from <br />California State University, Northridge
                 <br />
+                <br />
                 Certifications:
                 <br />
                 <br />
