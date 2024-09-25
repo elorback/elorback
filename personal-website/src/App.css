@@ -34,7 +34,9 @@ body {
   .custom-navbar {
     background-color: #1a1a1a; /* Darker background color */
   }
-  
+  #basic-navbar-nav{
+margin-left: .8rem;
+  }
   .nav-link {
     margin-left: .8rem;
     font-size: 1.2rem; /* Increase the text size */
