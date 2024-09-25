@@ -35,7 +35,7 @@ export default function Contact() {
 
   return (
     <Container className="mt-5">
-      <h1 className="text-center mb-4">Fill Out The Form To Reach Me</h1>
+      <h1 className="text-center mb-4">Contact Me With This Form</h1>
       <Form onSubmit={sendEmail}>
         <Form.Group className="mb-3">
           <Form.Label>Email Address:</Form.Label>
