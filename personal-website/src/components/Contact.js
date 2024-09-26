@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import { Button, Form,Container } from "react-bootstrap";
+import { Button, Form, Container } from "react-bootstrap";
 
 export default function Contact() {
   const [formState, setFormState] = useState({
@@ -35,7 +35,7 @@ export default function Contact() {
 
   return (
     <Container className="mt-5">
-      <h1 className="text-center mb-4">Contact Me With This Form</h1>
+      <h1 className="text-center mb-4">Contact Me</h1>
       <Form onSubmit={sendEmail}>
         <Form.Group className="mb-3">
           <Form.Label>Email Address:</Form.Label>
@@ -68,7 +68,9 @@ export default function Contact() {
             onChange={handleChange}
           />
         </Form.Group>
-        <Button type="submit" variant="primary">Send Email</Button>
+        <Button type="submit" variant="primary">
+          Send Email
+        </Button>
       </Form>
     </Container>
   );
