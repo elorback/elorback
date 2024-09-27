@@ -17,8 +17,9 @@ export default function About() {
                 Recent College Graduate from <br />
                 <br />
                 <br />
-                California State University, Northridge (CSUN) B.S. in Computer
-                Sciencen Cal State Northridge Dec 2023
+                California State University, Northridge (CSUN)
+                <br />
+                <br /> B.S. in Computer Sciencen Cal State Northridge Dec 2023
                 <br />
                 <br />
                 Certifications:
@@ -38,8 +39,10 @@ export default function About() {
               <Card.Text>
                 As a passionate Full Stack Developer based in Los Angeles, I
                 possess a strong foundation in crafting scalable web
-                applications and social media platforms. My experience includes:
-                Bookwyrm,
+                applications and social media platforms.
+                <br />
+                My experience includes:
+                <br /> Bookwyrm
                 <ul>
                   <li>React</li>
                   <li>Bootstrap</li>
@@ -54,7 +57,6 @@ export default function About() {
                   <li>Node</li>
                   <li>MongoDB</li>
                   <li>RESTful API</li>
-                  <li></li>
                 </ul>
                 Proficient in a robust array of technologies—including
                 JavaScript, Python, SQL, NoSQL, and various frameworks—I am
