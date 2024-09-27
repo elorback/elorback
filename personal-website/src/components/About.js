@@ -38,19 +38,29 @@ export default function About() {
               <Card.Text>
                 As a passionate Full Stack Developer based in Los Angeles, I
                 possess a strong foundation in crafting scalable web
-                applications and social media platforms. My experience includes
-                developing Bookwyrm, a fully responsive application using React,
-                Bootstrap, and Java-SpringBoot, where I implemented efficient
-                features such as the OpenLibrary API to enhance user engagement.
-                Additionally, my work on SquadSeek at California State
-                University involved the creation of a social media application
-                utilizing RESTful APIs, Node.js, and MongoDB, showcasing my
-                ability to deliver intuitive user experiences. Proficient in a
-                robust array of technologies—including JavaScript, Python, SQL,
-                NoSQL, and various frameworks—I am committed to continuous
-                learning and innovation in software development, always striving
-                to translate complex requirements into accessible, efficient
-                solutions.
+                applications and social media platforms. My experience includes:
+                Bookwyrm,
+                <ul>
+                  <li>React</li>
+                  <li>Bootstrap</li>
+                  <li>Java-SpringBoot</li>
+                  <li>OpenLibrary API</li>
+                  <li>RESTful APIs</li>
+                </ul>
+                SquadSeek
+                <ul>
+                  <li>React</li>
+                  <li>Express</li>
+                  <li>Node</li>
+                  <li>MongoDB</li>
+                  <li>RESTful API</li>
+                  <li></li>
+                </ul>
+                Proficient in a robust array of technologies—including
+                JavaScript, Python, SQL, NoSQL, and various frameworks—I am
+                committed to continuous learning and innovation in software
+                development, always striving to translate complex requirements
+                into accessible, efficient solutions.
               </Card.Text>
             </Card.Body>
           </Card>
