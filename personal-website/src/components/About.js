@@ -35,8 +35,8 @@ export default function About() {
             <Card.Body>
               <Card.Title>Biography</Card.Title>
               <Card.Text>
-                As a passionate Full Stack Developer based in Los Angeles, I
-                possess a strong foundation in crafting scalable web
+                As a passionate Full Stack Developer based in Los Angeles,
+                <br /> I possess a strong foundation in crafting scalable web
                 applications and social media platforms.
                 <br />
                 My experience includes:
@@ -58,10 +58,14 @@ export default function About() {
                   <li>RESTful API</li>
                 </ul>
                 Proficient in a robust array of technologies—including
+                <br />
                 JavaScript, Python, SQL, NoSQL, and various frameworks—I am
-                committed to continuous learning and innovation in software
-                development, always striving to translate complex requirements
-                into accessible, efficient solutions.
+                <br />
+                committed to continuous learning and innovation in
+                <br />
+                software development, always striving to translate
+                <br />
+                complex requirements into accessible, efficient solutions.
               </Card.Text>
             </Card.Body>
           </Card>
