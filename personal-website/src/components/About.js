@@ -58,7 +58,7 @@ export default function About() {
                   <li>RESTful APIs</li>
                 </ul>
                 Proficient in a robust array of technologies—including
-                JavaScript, Python, SQL, NoSQL, and various frameworks—I am
+                JavaScript, Python, SQL, MySQL, NoSQL, and various frameworks—I am
                 committed to continuous learning and innovation in software
                 development, always striving to translate complex requirements
                 into accessible, efficient solutions.
