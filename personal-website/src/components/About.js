@@ -33,7 +33,7 @@ export default function About() {
         <Col md={8}>
           <Card>
             <Card.Body>
-              <Card.Title>Biography</Card.Title>
+              <Card.Title>About me</Card.Title>
               <Card.Text>
                 As a passionate Full Stack Developer based in Los Angeles, I
                 possess a strong foundation in crafting scalable web
@@ -55,7 +55,7 @@ export default function About() {
                   <li>Express</li>
                   <li>Node</li>
                   <li>MongoDB</li>
-                  <li>RESTful API</li>
+                  <li>RESTful APIs</li>
                 </ul>
                 Proficient in a robust array of technologies—including
                 JavaScript, Python, SQL, NoSQL, and various frameworks—I am
