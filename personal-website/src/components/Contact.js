@@ -24,6 +24,7 @@ export default function Contact() {
       .catch((result) => {
         console.log(`Could not send email: ${result.text}`);
       });
+      clearForm();
   };
 
   const handleChange = (e) => {
@@ -32,7 +33,15 @@ export default function Contact() {
       [e.target.name]: e.target.value,
     });
   };
-
+const clearForm = () =>{
+  setFormState({
+    from_name: "",
+    user_email: "",
+    message: "",
+  }
+    
+    );
+};
   return (
     <Container className="mt-5">
       <h1 className="text-center mb-4">Contact Me</h1>
