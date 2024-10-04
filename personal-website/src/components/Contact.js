@@ -24,7 +24,7 @@ export default function Contact() {
       .catch((result) => {
         console.log(`Could not send email: ${result.text}`);
       });
-      clearForm();
+
   };
 
   const handleChange = (e) => {
@@ -77,7 +77,7 @@ const clearForm = () =>{
             onChange={handleChange}
           />
         </Form.Group>
-        <Button type="submit" variant="primary">
+        <Button onClick={clearForm()} type="submit" variant="primary">
           Send Email
         </Button>
       </Form>
