@@ -77,7 +77,7 @@ const clearForm = () =>{
             onChange={handleChange}
           />
         </Form.Group>
-        <Button onClick={clearForm()} type="submit" variant="primary">
+        <Button onClick={clearForm} type="submit" variant="primary">
           Send Email
         </Button>
       </Form>
