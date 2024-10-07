@@ -20,11 +20,11 @@ export default function Contact() {
       )
       .then((result) => {
         console.log(`Email sent: ${result.text}`);
+        clearForm();
       })
       .catch((result) => {
         console.log(`Could not send email: ${result.text}`);
       });
-
   };
 
   const handleChange = (e) => {
@@ -33,15 +33,13 @@ export default function Contact() {
       [e.target.name]: e.target.value,
     });
   };
-const clearForm = () =>{
-  setFormState({
-    from_name: "",
-    user_email: "",
-    message: "",
-  }
-    
-    );
-};
+  const clearForm = () => {
+    setFormState({
+      from_name: "",
+      user_email: "",
+      message: "",
+    });
+  };
   return (
     <Container className="mt-5">
       <h1 className="text-center mb-4">Contact Me</h1>
@@ -52,6 +50,7 @@ const clearForm = () =>{
             type="email"
             name="user_email"
             placeholder="example@example.com"
+            value={formState.user_email}
             required
             onChange={handleChange}
           />
@@ -62,6 +61,7 @@ const clearForm = () =>{
             type="text"
             name="from_name"
             placeholder="First and Last name"
+            value={formState.from_name}
             required
             onChange={handleChange}
           />
@@ -72,12 +72,13 @@ const clearForm = () =>{
             as="textarea"
             name="message"
             placeholder="Enter your message here..."
+            value={formState.message}
             rows={4}
             required
             onChange={handleChange}
           />
         </Form.Group>
-        <Button onClick={clearForm} type="submit" variant="primary">
+        <Button type="submit" variant="primary">
           Send Email
         </Button>
       </Form>
