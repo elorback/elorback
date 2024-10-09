@@ -27,7 +27,7 @@ export default function About() {
                 <br />
                 Front End Framework Libraries - Sept 20, 2024
                 <br />
-                Back end Development and API's - Oct 9, 2024
+                Back End Development and API's - Oct 9, 2024
                 <br />
                 Foundational C# - Sept 27, 2024
               </Card.Text>
