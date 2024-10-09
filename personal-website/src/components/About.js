@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/About.css"; // Keep your custom CSS if needed
 import { Card, Container, Row, Col } from "react-bootstrap"; // Import necessary Bootstrap components
-import photo from "../images/IMG_7217.jpg";
+import photo from "../images/PHOTO.jpg";
 
 export default function About() {
   return (
