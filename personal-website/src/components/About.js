@@ -26,6 +26,10 @@ export default function About() {
                 Responsive Web Design - Sept 4, 2024
                 <br />
                 Front End Framework Libraries - Sept 20, 2024
+                <br />
+                Backend Development and API's - Oct 9, 2024
+                <br />
+                Foundational C# - Sept 27, 2024
               </Card.Text>
             </Card.Body>
           </Card>
@@ -58,8 +62,8 @@ export default function About() {
                   <li>RESTful APIs</li>
                 </ul>
                 Proficient in a robust array of technologies—including
-                JavaScript, Python, SQL, MySQL, NoSQL, and various frameworks—I am
-                committed to continuous learning and innovation in software
+                JavaScript, Python, SQL, MySQL, NoSQL, and various frameworks—I
+                am committed to continuous learning and innovation in software
                 development, always striving to translate complex requirements
                 into accessible, efficient solutions.
               </Card.Text>
