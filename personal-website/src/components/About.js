@@ -37,7 +37,7 @@ export default function About() {
         <Col md={8}>
           <Card>
             <Card.Body>
-              <Card.Title>About me</Card.Title>
+              <Card.Title>Background</Card.Title>
               <Card.Text>
                 As a passionate Full Stack Developer based in Los Angeles, I
                 possess a strong foundation in crafting scalable web
