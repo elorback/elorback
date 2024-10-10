@@ -11,7 +11,9 @@ function App() {
   return (
     <Router>
       <div className="container mt-5">
-        <h1 className="text-center mb-4">Welcome To My Personal Website</h1>
+        <h1 className="text-center mb-4">
+          Personal Website Created By Eric Lorback
+        </h1>
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
