@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="container mt-5">
         <h1 className="text-center mb-4">
-          Welcome to The Personal Website Created by Eric Lorback
+          Personal Website Created By Eric Lorback
         </h1>
         <NavBar />
         <Routes>
