@@ -14,7 +14,7 @@ export default function About() {
             <Card.Body>
               <Card.Title>Eric Lorback</Card.Title>
               <Card.Text>
-                Recent College Graduate from <br />
+                College Graduate from <br />
                 California State University, Northridge (CSUN)
                 <br />
                 <br /> B.S. in Computer Science Cal State, Northridge - Dec 2023
