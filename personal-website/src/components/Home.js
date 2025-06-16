@@ -8,8 +8,12 @@ export default function Home() {
       <p className="lead">
         Explore my work, learn more about me, and get in touch!
       </p>
-      <Button variant="primary" href="/about" className="me-2">About Me</Button>
-      <Button variant="primary" href="/contact">Contact Me</Button>
+      <Button variant="primary" href="/about" className="me-2">
+        About Me
+      </Button>
+      <Button variant="primary" href="/contact">
+        Contact Me
+      </Button>
     </Container>
   );
 }
