@@ -69,6 +69,13 @@ export default function About() {
               </Card.Text>
             </Card.Body>
           </Card>
+          <br />
+          <Card>
+            <Card.Body>
+              <Card.Title>My Interests</Card.Title>
+              <Card.Text>Outside of my </Card.Text>
+            </Card.Body>
+          </Card>
         </Col>
       </Row>
     </Container>
