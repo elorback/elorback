@@ -52,3 +52,24 @@ margin-left: .8rem;
     font-size: 1.5rem; /* Increase the brand text size */
     color: #ffffff; /* Lighter text color */
   }
+  
+.fade-container {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-enter.fade-container {
+  opacity: 1;
+}
+
+.fade-exit.fade-container {
+  opacity: 0;
+}

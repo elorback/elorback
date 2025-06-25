@@ -3,3 +3,24 @@ h1{
     justify-content: center;
     align-items: center;
 }
+ 
+.fade-container {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-enter.fade-container {
+  opacity: 1;
+}
+
+.fade-exit.fade-container {
+  opacity: 0;
+}
