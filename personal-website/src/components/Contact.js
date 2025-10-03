@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import { Button, Form, Container } from "react-bootstrap";
+import { Form, Button } from "react-bootstrap";
+import "./css/Contact.css";
 
 export default function Contact() {
   const [formState, setFormState] = useState({
@@ -9,30 +10,13 @@ export default function Contact() {
     message: "",
   });
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_bb27l6e",
-        "template_918f826",
-        e.target,
-        "eVQqGRRB_dy8imDVs"
-      )
-      .then((result) => {
-        console.log(`Email sent: ${result.text}`);
-        clearForm();
-      })
-      .catch((result) => {
-        console.log(`Could not send email: ${result.text}`);
-      });
-  };
-
   const handleChange = (e) => {
     setFormState({
       ...formState,
       [e.target.name]: e.target.value,
     });
   };
+
   const clearForm = () => {
     setFormState({
       from_name: "",
@@ -40,9 +24,30 @@ export default function Contact() {
       message: "",
     });
   };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_bb27l6e", // your EmailJS service ID
+        "template_918f826", // your EmailJS template ID
+        e.target,
+        "eVQqGRRB_dy8imDVs" // your EmailJS user ID / public key
+      )
+      .then((result) => {
+        console.log(`Email sent: ${result.text}`);
+        clearForm();
+        alert("Message sent successfully!");
+      })
+      .catch((error) => {
+        console.log(`Could not send email: ${error.text}`);
+        alert("Failed to send message. Please try again.");
+      });
+  };
+
   return (
-    <Container className="mt-5">
-      <h1 className="text-center mb-4">Contact Me</h1>
+    <div className="contact-container">
+      <h1>Contact Me</h1>
       <Form onSubmit={sendEmail}>
         <Form.Group className="mb-3">
           <Form.Label>Email Address:</Form.Label>
@@ -55,6 +60,7 @@ export default function Contact() {
             onChange={handleChange}
           />
         </Form.Group>
+
         <Form.Group className="mb-3">
           <Form.Label>Full Name:</Form.Label>
           <Form.Control
@@ -66,6 +72,7 @@ export default function Contact() {
             onChange={handleChange}
           />
         </Form.Group>
+
         <Form.Group className="mb-3">
           <Form.Label>Message:</Form.Label>
           <Form.Control
@@ -78,10 +85,9 @@ export default function Contact() {
             onChange={handleChange}
           />
         </Form.Group>
-        <Button type="submit" variant="primary">
-          Send Email
-        </Button>
+
+        <Button type="submit">Send Email</Button>
       </Form>
-    </Container>
+    </div>
   );
 }

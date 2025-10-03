@@ -1,54 +1,54 @@
-.form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 5px;
-    font-size: x-large;
+/* Container for the contact form */
+.contact-container {
+    max-width: 500px;             /* restrict width */
+    margin: 50px auto;            /* center horizontally and add spacing */
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #1e1e1e;    /* dark card-like background to match theme */
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.5);
+}
 
+/* Header styling */
+.contact-container h1 {
+    font-size: 24px;               /* smaller header */
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffcc00;                /* bright yellow heading */
 }
-.email-container{
-    display: flex;
-    justify-content: center;
+
+/* Form input styling */
+.contact-container input,
+.contact-container textarea {
+    width: 100%;                   /* full width of container */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #444;        /* subtle border for dark theme */
+    border-radius: 6px;
+    background-color: #121212;     /* dark input background */
+    color: #e0e0e0;                /* light text color */
+    font-size: 16px;
 }
-.email{
-    display: flex;
-    
-    justify-content: center;
+
+/* Placeholder color for inputs */
+.contact-container input::placeholder,
+.contact-container textarea::placeholder {
+    color: #aaa;                   /* lighter gray placeholder */
 }
-.name{
-margin: 20px;}
-input{ 
-    margin:8px;
-    margin-left: 20px;
-    padding:8px;
-    width: 200px;
-    height: 20px;
-}
-.email-message{
-    
-text-align: left;
-margin-left: 8px;
-margin-right: 28px;
-    width:300px;
-    height:100px;
-    vertical-align:top;
-    
-}
-button{
-    width: 90px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    margin-top: 8px;
-    margin-right: 138px;
-    align-items: center;
+
+/* Button styling matching App.css */
+.contact-container button {
+    width: 100%;                   /* full width button */
+    padding: 10px;
     border: none;
     border-radius: 9px;
-    background-color: blue;
-    color:white;
+    background-color: #ff5722;     /* vibrant button color */
+    color: #ffffff;                /* button text color */
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
-button:hover{
-    color:black;
-    background-color: green;
+
+.contact-container button:hover {
+    background-color: #e64a19;     /* darker shade on hover */
+    color: #ffffff;                /* keep text white on hover */
 }
