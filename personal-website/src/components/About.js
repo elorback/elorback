@@ -34,7 +34,7 @@ export default function About() {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={8} hidden>
+        <Col md={8}>
           <Card>
             <Card.Body>
               <Card.Title>Background</Card.Title>
