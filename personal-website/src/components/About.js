@@ -66,6 +66,7 @@ export default function About() {
                   </li>
                 </ul>
                 <br /> Bookwyrm
+                <br />
                 <ul>
                   <li>React</li>
                   <li>Bootstrap</li>
@@ -74,6 +75,7 @@ export default function About() {
                   <li>RESTful APIs</li>
                 </ul>
                 SquadSeek
+                <br />
                 <ul>
                   <li>React</li>
                   <li>Express</li>
