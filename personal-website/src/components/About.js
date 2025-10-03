@@ -45,6 +45,26 @@ export default function About() {
                 <br />
                 My experience includes:
                 <br />
+                Intron Technology Solutions
+                <ul>
+                  <li>JavaScript</li>
+                  <li>React.js</li>
+                  <li>Node.js</li>
+                  <li>HTML & CSS</li>
+                  <li>Bash</li>
+                  <li>Python</li>
+                  <li>MySQL</li>
+                  <li>Docker</li>
+                  <li>Linux Server Administration</li>
+                  <li>
+                    Security tools (e.g., TPOTCE by Telekom Security honeypot
+                    suite)
+                  </li>
+                  <li>Software & Security Engineer responsibilities</li>
+                  <li>
+                    Automating client update systems via private local cloud
+                  </li>
+                </ul>
                 <br /> Bookwyrm
                 <ul>
                   <li>React</li>
@@ -62,10 +82,10 @@ export default function About() {
                   <li>RESTful APIs</li>
                 </ul>
                 Proficient in a robust array of technologies—including
-                JavaScript, Python, SQL, MySQL, NoSQL, and various frameworks—I
-                am committed to continuous learning and innovation in software
-                development, always striving to translate complex requirements
-                into accessible, efficient solutions.
+                JavaScript, Python, SQL, MySQL, NoSQL, Docker, Linux, and
+                various frameworks—I am committed to continuous learning and
+                innovation in software development, always striving to translate
+                complex requirements into accessible, efficient solutions.
               </Card.Text>
             </Card.Body>
           </Card>
