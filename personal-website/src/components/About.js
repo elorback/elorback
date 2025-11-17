@@ -17,7 +17,7 @@ export default function About() {
                 College Graduate from <br />
                 California State University, Northridge (CSUN)
                 <br />
-                <br /> B.S. in Computer Science Cal State, Northridge - Dec 2023
+                <br /> B.S. in Computer Science Cal State, Northridge
                 <br />
                 <br />
                 Certifications:
