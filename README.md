@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Hi, I'm Eric Lorback
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I'm a full-stack developer and systems engineer with hands-on experience in Linux server administration, automation, and security-focused infrastructure. My work spans web development, distributed systems, and DevOps-style environments, where I manage and deploy services across multiple servers.
 
-## Available Scripts
+## About This GitHub
 
-In the project directory, you can run:
+This GitHub is primarily a collection of smaller personal projects, experiments, and tools. It does **not** fully represent the scope of my professional experience or the larger systems I've worked on in production environments.
 
-### `npm start`
+Much of my professional work involves private infrastructure, internal systems, and client deployments that are not publicly available.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Projects to Check Out
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+If you're looking for the most representative work here, I recommend:
 
-### `npm test`
+- **Woodwind Institute**  
+  A full-stack application built with React and TypeScript, using Formspree as an email API for handling contact form submissions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **elorback.pages.dev**  
+  My personal site built with React (JavaScript), used as a sandbox for experimenting with frontend design, deployment workflows, and iterative development.
 
-### `npm run build`
+- **Python Email Scraper**  
+  A Python-based web scraping application that uses Selenium to automate browser interactions and extract email data.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technical Focus
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Full Stack Development (JavaScript, React, Node.js)
+- Linux Server Administration
+- Bash & Automation (SSH, SCP, cron workflows)
+- Docker & Containerized Services
+- MySQL & Database Design
+- Security Tooling & Monitoring (ELK Stack, honeypots)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Professional Experience (High-Level)
 
-### `npm run eject`
+- Managing 60+ Linux servers in a private cloud environment  
+- Building and maintaining distributed update systems (staging → repository → client servers)  
+- Deploying and monitoring security tools across client infrastructure  
+- Automating system workflows and alerting pipelines  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you’re reviewing my GitHub as part of an opportunity, feel free to reach out — I’m happy to provide deeper insight into my professional work and experience.
