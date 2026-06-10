@@ -1,42 +1,31 @@
 # Hi, I'm Eric Lorback
 
-I'm a full-stack developer and systems engineer with hands-on experience in Linux server administration, automation, and security-focused infrastructure. My work spans web development, distributed systems, and DevOps-style environments, where I manage and deploy services across multiple servers.
+I'm a Software Engineer with an emphasis on backend & infrastructure, backed by hands-on experience in Linux server administration, automation, and security-focused systems. My work spans backend service design, distributed systems, and DevOps-style environments where I manage, monitor, and deploy services across bare-metal servers.
 
 ## About This GitHub
-
-This GitHub is primarily a collection of smaller personal projects, experiments, and tools. It does **not** fully represent the scope of my professional experience or the larger systems I've worked on in production environments.
-
-Much of my professional work involves private infrastructure, internal systems, and client deployments that are not publicly available.
+This GitHub is primarily a collection of smaller personal projects, utilities, and architectural sandboxes. It does **not** represent the true scope or complexity of my professional production experience. Much of my day-to-day enterprise work involves private VPC infrastructure, internal automation tooling, and secure client deployments that are not publicly hosted.
 
 ## Projects to Check Out
+If you're looking for the most representative backend and utility work here, I recommend:
 
-If you're looking for the most representative work here, I recommend:
-
-- **Woodwind Institute**  
-  A full-stack application built with React and TypeScript, using Formspree as an email API for handling contact form submissions.
-
-- **elorback.pages.dev**  
-  My personal site built with React (JavaScript), used as a sandbox for experimenting with frontend design, deployment workflows, and iterative development.
-
-- **Python Email Scraper**  
-  A Python-based web scraping application that uses Selenium to automate browser interactions and extract email data.
+- **Python Email Scraper:** A Python-based automation tool leveraging Selenium to handle dynamic session states, exception logging, and raw data extraction pipelines.
+- **BookWyrm Web Application:** A social platform backend built with Java (Spring Boot) and a containerized MySQL database (Docker), integrated with a responsive React frontend interface. Includes Open Library API integration and OAuth2 session security.
+- **elorback.pages.dev:** My personal portfolio sandbox used primarily for experimenting with frontend design, CI/CD deployment workflows, and iterative UI testing.
 
 ## Technical Focus
+- Backend Engineering & API Design (Node.js, Express, Python, Java)
+- Linux Server Administration & System Hardening
+- Bash Scripting & Automation (SSH, SCP, automated cron workflows)
+- Docker & Containerized Microservices
+- Relational Database Design & Schema Optimization (MySQL)
+- Security Telemetry & Monitoring (ELK Stack log processing, honeypots)
+- Frontend Development (React, TypeScript)
 
-- Full Stack Development (JavaScript, React, Node.js)
-- Linux Server Administration
-- Bash & Automation (SSH, SCP, cron workflows)
-- Docker & Containerized Services
-- MySQL & Database Design
-- Security Tooling & Monitoring (ELK Stack, honeypots)
-
-## Professional Experience (High-Level)
-
-- Managing 60+ Linux servers in a private cloud environment  
-- Building and maintaining distributed update systems (staging → repository → client servers)  
-- Deploying and monitoring security tools across client infrastructure  
-- Automating system workflows and alerting pipelines  
+## Professional Production Impact (High-Level)
+- Managing and provisioning 60+ Linux servers within a private cloud VPC.
+- Building and maintaining distributed update systems (staging → repository → client nodes).
+- Deploying, aggregating, and analyzing security logging tools across client infrastructure.
+- Automating internal system workflows, log handling policies, and alerting pipelines.
 
 ---
-
-If you’re reviewing my GitHub as part of an opportunity, feel free to reach out — I’m happy to provide deeper insight into my professional work and experience.
+If you’re reviewing my profile as part of an opportunity, feel free to reach out — I’m happy to hop on a call and provide deeper insight into my professional work.
